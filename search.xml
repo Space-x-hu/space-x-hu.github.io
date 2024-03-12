@@ -5,8 +5,8 @@
     
     <entry>
       <title>我的第一篇博客</title>
-      <link href="/2023/12/23/null/"/>
-      <url>/2023/12/23/null/</url>
+      <link href="/2023/12/23/index/"/>
+      <url>/2023/12/23/index/</url>
       
         <content type="html"><![CDATA[<p>欢迎大家来到我的博客，我是Hu。如你所见，这是我的第一篇个人博客（除去HelloWorld），不知道若干年后当我成为一个资深程序员的时候看到这篇文章会有何感想。</p><h2 id="Hexo服务启动"><a href="#Hexo服务启动" class="headerlink" title="Hexo服务启动"></a>Hexo服务启动</h2><h3 id="清除缓存文件-db-json-和已生成的静态文件-public"><a href="#清除缓存文件-db-json-和已生成的静态文件-public" class="headerlink" title="清除缓存文件 db.json 和已生成的静态文件 public"></a>清除缓存文件 db.json 和已生成的静态文件 public</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure><h3 id="生成网站静态文件到默认设置的-public-文件夹。"><a href="#生成网站静态文件到默认设置的-public-文件夹。" class="headerlink" title="生成网站静态文件到默认设置的 public 文件夹。"></a>生成网站静态文件到默认设置的 public 文件夹。</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure><h3 id="启动本地服务器，用于预览主题。默认地址：-http-localhost-4000"><a href="#启动本地服务器，用于预览主题。默认地址：-http-localhost-4000" class="headerlink" title="启动本地服务器，用于预览主题。默认地址： http://localhost:4000/"></a>启动本地服务器，用于预览主题。默认地址： <a href="http://localhost:4000/">http://localhost:4000/</a></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure><p>上面就是一些最基本的hexo命令了。</p>]]></content>
       

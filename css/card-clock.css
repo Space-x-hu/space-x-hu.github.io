@@ -32,29 +32,12 @@
   gap: 4px;
 }
 
-.card-clock-clockdate,
-.card-clock-ip {
+.card-clock-clockdate {
   text-align: left;
-  flex: 1 1 40%;
+  flex: 1;
   min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-
-.card-clock-weather,
-.card-clock-location {
-  text-align: center;
-  flex: 1 1 30%;
-  min-width: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.card-clock-humidity,
-.card-clock-dackorlight {
-  text-align: right;
-  flex: 1 1 30%;
-  min-width: 0;
 }
 
 .card-clock-time {
@@ -65,8 +48,10 @@
   line-height: 1.5;
 }
 
-.card-clock-weather.is-hidden,
-.card-clock-humidity.is-hidden,
-.card-clock-location.is-hidden {
-  visibility: hidden;
+.clock-row--ampm {
+  justify-content: flex-end;
+}
+
+.card-clock-dackorlight {
+  text-align: right;
 }
